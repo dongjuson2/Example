@@ -1,2 +1,2 @@
-# Pickles
+# Example
 Testing
