@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    animation-duration: 4s;
+    animation-name: slide;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    h1 {
+        color: green; 
+    }
+}
